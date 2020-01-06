@@ -1,5 +1,4 @@
 var geezer = require('geezer');
-
 var translate = function (car) {
 		car = car.replace(/ä/g, "e");
 		car = car.replace(/â/g, "e");
@@ -482,7 +481,6 @@ var translate = function (car) {
 		car = car.replace(/é/g, "ኤ");
 		car = car.replace(/o/g, "ኦ");
 		car = car.replace(/ኣኣ/g, "ኧ");
- 
 		car = car.replace(/-/g, "፡");
 		car = car.replace(/\./g, "።");
 		car = car.replace(/\,/g, "፣");
